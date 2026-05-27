@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Archisha Gupta | Portfolio</title>
+  <meta name="description" content="Archisha Gupta — Front-End Developer & UI Designer. Explore my portfolio of web projects built with HTML, CSS and JavaScript." />
+  <meta name="keywords" content="Archisha Gupta, Portfolio, Web Developer, Front End, HTML, CSS, JavaScript, UI Design" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Caveat:wght@400;500;600;700&family=Outfit:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <!-- Styles -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ========================
+       NAVIGATION
+       ======================== -->
+  <nav class="nav" id="main-nav">
+    <a href="#" class="nav-logo">AG.</a>
+
+    <ul class="nav-links" id="nav-links">
+      <li><a href="#" class="active" id="nav-home">Home</a></li>
+      <li><a href="#about" id="nav-about">About</a></li>
+      <li><a href="#projects" id="nav-projects">Projects</a></li>
+      <li><a href="#skills" id="nav-skills">Skills</a></li>
+      <li><a href="#contact" id="nav-contact">Contact</a></li>
+    </ul>
+
+    <div class="nav-actions">
+      <div class="nav-avatar" title="Archisha Gupta">AG</div>
+      <a href="#projects" class="btn-primary" id="view-work-btn">
+        <i class="fa-solid fa-eye"></i> View Work
+      </a>
+      <button class="nav-burger" id="nav-burger" aria-label="Open navigation menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Mobile Drawer -->
+  <div class="nav-drawer" id="nav-drawer">
+    <a href="#" id="drawer-home">Home</a>
+    <a href="#about" id="drawer-about">About</a>
+    <a href="#projects" id="drawer-projects">Projects</a>
+    <a href="#skills" id="drawer-skills">Skills</a>
+    <a href="#contact" id="drawer-contact">Contact</a>
+  </div>
+
+  <!-- ========================
+       HERO SECTION
+       ======================== -->
+  <section class="hero" id="about">
+
+    <!-- Left: Text Content -->
+    <div class="hero-left">
+      <!-- Background doodle asterisks -->
+      <span class="doodle-asterisk" style="top:10%;right:8%;font-size:2.5rem;color:#6c47ff;">✳</span>
+      <span class="doodle-asterisk" style="bottom:15%;left:5%;font-size:1.5rem;animation-duration:15s;color:#00d4ff;">✳</span>
+
+      <div class="hero-greeting">
+        <span class="greeting-emoji">👋</span>
+        Hello, I'm
+      </div>
+
+      <h1 class="hero-name">
+        <span>ARCHISHA</span>
+        <span>GUPTA</span>
+      </h1>
+
+      <p class="hero-title">Front-End Developer &amp; UI Designer</p>
+
+      <p class="hero-bio">
+        I build exceptional digital experiences that are fast, accessible, and beautifully designed. Passionate about crafting web interfaces that make an impact.
+      </p>
+
+      <div class="hero-cta">
+        <a href="#projects" class="btn-primary" id="hero-view-work">
+          View My Work &nbsp;<i class="fa-solid fa-arrow-right"></i>
+        </a>
+        <a href="../index.html" class="btn-outline" id="hero-all-projects">
+          <i class="fa-solid fa-grid-2"></i> All Projects
+        </a>
+      </div>
+
+      <div class="hero-socials">
+        <a href="https://github.com" target="_blank" class="social-icon" id="social-github" aria-label="GitHub">
+          <i class="fa-brands fa-github"></i>
+        </a>
+        <a href="https://linkedin.com" target="_blank" class="social-icon" id="social-linkedin" aria-label="LinkedIn">
+          <i class="fa-brands fa-linkedin-in"></i>
+        </a>
+        <a href="https://twitter.com" target="_blank" class="social-icon" id="social-twitter" aria-label="Twitter/X">
+          <i class="fa-brands fa-x-twitter"></i>
+        </a>
+        <a href="https://instagram.com" target="_blank" class="social-icon" id="social-instagram" aria-label="Instagram">
+          <i class="fa-brands fa-instagram"></i>
+        </a>
+      </div>
+    </div>
+
+    <!-- Right: Browser window mockup -->
+    <div class="hero-right">
+      <!-- Decorative dots grid -->
+      <div class="hero-deco-dots">
+        <span></span><span></span><span></span><span></span><span></span><span></span>
+        <span></span><span></span><span></span><span></span><span></span><span></span>
+        <span></span><span></span><span></span><span></span><span></span><span></span>
+        <span></span><span></span><span></span><span></span><span></span><span></span>
+      </div>
+
+      <!-- Decorative stars -->
+      <span class="hero-deco-star" style="top:12%;left:8%;font-size:1.8rem;">✦</span>
+      <span class="hero-deco-star" style="bottom:18%;left:6%;font-size:1.2rem;color:#ff4d8d;opacity:0.4;">★</span>
+
+      <!-- Speech bubble -->
+      <div class="speech-bubble" id="speech-bubble">
+        Crafting digital solutions that scale, impact, and look amazing. ✨
+      </div>
+
+      <!-- Browser Window -->
+      <div class="browser-window">
+        <div class="browser-bar">
+          <div class="browser-dots">
+            <span class="browser-dot"></span>
+            <span class="browser-dot"></span>
+            <span class="browser-dot"></span>
+          </div>
+          <div class="browser-url">archishagupta.dev/portfolio</div>
+        </div>
+        <div class="browser-content">
+          <div class="avatar-circle" id="hero-avatar">👩‍💻</div>
+          <p class="avatar-tag">Full-Stack Web Developer</p>
+
+          <!-- Mini skill pills -->
+          <div style="display:flex;gap:6px;flex-wrap:wrap;justify-content:center;margin-top:0.5rem;">
+            <span class="tag">HTML5</span>
+            <span class="tag">CSS3</span>
+            <span class="tag">JavaScript</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ========================
+       PROJECTS SECTION
+       ======================== -->
+  <section class="projects-section" id="projects">
+    <div class="section-header">
+      <span class="section-label">Selected Projects</span>
+      <a href="../index.html" class="section-action" id="view-all-projects-link">
+        View all projects &nbsp;<i class="fa-solid fa-arrow-right"></i>
+      </a>
+    </div>
+
+    <!-- Project 01: Edify Tutorial -->
+    <div class="project-item reveal" id="project-edify">
+      <div class="project-num">01</div>
+
+      <div class="project-info">
+        <div>
+          <div class="project-icon-wrap" style="background:#e0f7ff;" id="edify-icon">
+            🎓
+          </div>
+          <h2 class="project-name">Edify Tutorial</h2>
+          <p class="project-desc">
+            An educational platform featuring an interactive login system and dedicated dashboards for students, teachers, and parents.
+          </p>
+          <div class="project-tags">
+            <span class="tag">HTML5</span>
+            <span class="tag">CSS3</span>
+            <span class="tag">JavaScript</span>
+            <span class="tag">Dashboard UI</span>
+          </div>
+        </div>
+        <a href="../Edify Tutorial/index.html" class="project-view-btn" id="edify-btn">
+          View Case Study &nbsp;<i class="fa-solid fa-arrow-right"></i>
+        </a>
+        <div class="corner-fold"></div>
+      </div>
+
+      <div class="project-roadmap">
+        <p class="roadmap-title num-badge">Project Roadmap</p>
+        <div class="roadmap-steps">
+          <div class="roadmap-step done">
+            <span class="num-badge">01</span>
+            <div class="roadmap-step-icon"><i class="fa-solid fa-magnifying-glass"></i></div>
+            <span class="roadmap-step-label">Research</span>
+          </div>
+          <div class="roadmap-step done">
+            <span class="num-badge">02</span>
+            <div class="roadmap-step-icon"><i class="fa-solid fa-pen-nib"></i></div>
+            <span class="roadmap-step-label">Design</span>
+          </div>
+          <div class="roadmap-step done">
+            <span class="num-badge">03</span>
+            <div class="roadmap-step-icon"><i class="fa-solid fa-code"></i></div>
+            <span class="roadmap-step-label">Development</span>
+          </div>
+          <div class="roadmap-step done">
+            <span class="num-badge">04</span>
+            <div class="roadmap-step-icon"><i class="fa-solid fa-flag"></i></div>
+            <span class="roadmap-step-label">Launch</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Project 02: Netflix Clone -->
+    <div class="project-item reveal" id="project-netflix" style="transition-delay: 0.1s;">
+      <div class="project-num">02</div>
+
+      <div class="project-info">
+        <div>
+          <div class="project-icon-wrap" style="background:#ffe0e6;" id="netflix-icon">
+            🎬
+          </div>
+          <h2 class="project-name">Netflix UI Clone</h2>
+          <p class="project-desc">
+            A pixel-perfect replica of the Netflix streaming platform's landing page, complete with a FAQ accordion and dark theme styling.
+          </p>
+          <div class="project-tags">
+            <span class="tag">CSS Grid</span>
+            <span class="tag">Flexbox</span>
+            <span class="tag">Interactive FAQ</span>
+            <span class="tag">UI Clone</span>
+          </div>
+        </div>
+        <a href="../Netflix/Netflix.html" class="project-view-btn" id="netflix-btn">
+          View Case Study &nbsp;<i class="fa-solid fa-arrow-right"></i>
+        </a>
+        <div class="corner-fold"></div>
+      </div>
+
+      <div class="project-roadmap">
+        <p class="roadmap-title num-badge">Project Roadmap</p>
+        <div class="roadmap-steps">
+          <div class="roadmap-step done">
+            <span class="num-badge">01</span>
+            <div class="roadmap-step-icon"><i class="fa-solid fa-magnifying-glass"></i></div>
+            <span class="roadmap-step-label">Research</span>
+          </div>
+          <div class="roadmap-step done">
+            <span class="num-badge">02</span>
+            <div class="roadmap-step-icon"><i class="fa-solid fa-pen-nib"></i></div>
+            <span class="roadmap-step-label">Design</span>
+          </div>
+          <div class="roadmap-step done">
+            <span class="num-badge">03</span>
+            <div class="roadmap-step-icon"><i class="fa-solid fa-code"></i></div>
+            <span class="roadmap-step-label">Development</span>
+          </div>
+          <div class="roadmap-step done">
+            <span class="num-badge">04</span>
+            <div class="roadmap-step-icon"><i class="fa-solid fa-flag"></i></div>
+            <span class="roadmap-step-label">Launch</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Project 03: Amazon Clone -->
+    <div class="project-item reveal" id="project-amazon" style="transition-delay: 0.2s;">
+      <div class="project-num">03</div>
+
+      <div class="project-info">
+        <div>
+          <div class="project-icon-wrap" style="background:#fff4e0;" id="amazon-icon">
+            🛒
+          </div>
+          <h2 class="project-name">Amazon Homepage Clone</h2>
+          <p class="project-desc">
+            An interactive replica of the Amazon e-commerce homepage featuring navigation panels, responsive grids, and product categories.
+          </p>
+          <div class="project-tags">
+            <span class="tag">E-commerce UI</span>
+            <span class="tag">Custom CSS</span>
+            <span class="tag">Responsive Nav</span>
+          </div>
+        </div>
+        <a href="../Amazon/Amazon.html" class="project-view-btn" id="amazon-btn">
+          View Case Study &nbsp;<i class="fa-solid fa-arrow-right"></i>
+        </a>
+        <div class="corner-fold"></div>
+      </div>
+
+      <div class="project-roadmap">
+        <p class="roadmap-title num-badge">Project Roadmap</p>
+        <div class="roadmap-steps">
+          <div class="roadmap-step done">
+            <span class="num-badge">01</span>
+            <div class="roadmap-step-icon"><i class="fa-solid fa-magnifying-glass"></i></div>
+            <span class="roadmap-step-label">Research</span>
+          </div>
+          <div class="roadmap-step done">
+            <span class="num-badge">02</span>
+            <div class="roadmap-step-icon"><i class="fa-solid fa-pen-nib"></i></div>
+            <span class="roadmap-step-label">Design</span>
+          </div>
+          <div class="roadmap-step done">
+            <span class="num-badge">03</span>
+            <div class="roadmap-step-icon"><i class="fa-solid fa-code"></i></div>
+            <span class="roadmap-step-label">Development</span>
+          </div>
+          <div class="roadmap-step done">
+            <span class="num-badge">04</span>
+            <div class="roadmap-step-icon"><i class="fa-solid fa-flag"></i></div>
+            <span class="roadmap-step-label">Launch</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Project 04: KOTLC Fanpage -->
+    <div class="project-item reveal" id="project-kotlc" style="transition-delay: 0.3s;">
+      <div class="project-num">04</div>
+
+      <div class="project-info">
+        <div>
+          <div class="project-icon-wrap" style="background:#e8e0ff;" id="kotlc-icon">
+            🔮
+          </div>
+          <h2 class="project-name">KOTLC Community Hub</h2>
+          <p class="project-desc">
+            A feature-rich community fan site showcasing book listings, art galleries, character bios, recipes, playlists, and fan resources.
+          </p>
+          <div class="project-tags">
+            <span class="tag">Multi-page Portal</span>
+            <span class="tag">Media Integration</span>
+            <span class="tag">Interactive Gallery</span>
+          </div>
+        </div>
+        <a href="../KOTLC/index5.html" class="project-view-btn" id="kotlc-btn">
+          View Case Study &nbsp;<i class="fa-solid fa-arrow-right"></i>
+        </a>
+        <div class="corner-fold"></div>
+      </div>
+
+      <div class="project-roadmap">
+        <p class="roadmap-title num-badge">Project Roadmap</p>
+        <div class="roadmap-steps">
+          <div class="roadmap-step done">
+            <span class="num-badge">01</span>
+            <div class="roadmap-step-icon"><i class="fa-solid fa-magnifying-glass"></i></div>
+            <span class="roadmap-step-label">Research</span>
+          </div>
+          <div class="roadmap-step done">
+            <span class="num-badge">02</span>
+            <div class="roadmap-step-icon"><i class="fa-solid fa-pen-nib"></i></div>
+            <span class="roadmap-step-label">Design</span>
+          </div>
+          <div class="roadmap-step done">
+            <span class="num-badge">03</span>
+            <div class="roadmap-step-icon"><i class="fa-solid fa-code"></i></div>
+            <span class="roadmap-step-label">Development</span>
+          </div>
+          <div class="roadmap-step done">
+            <span class="num-badge">04</span>
+            <div class="roadmap-step-icon"><i class="fa-solid fa-flag"></i></div>
+            <span class="roadmap-step-label">Launch</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+
+  <!-- ========================
+       SKILLS SECTION
+       ======================== -->
+  <section class="skills-section" id="skills">
+    <div class="section-header">
+      <span class="section-label">Technologies I Work With</span>
+    </div>
+
+    <div class="skills-grid">
+      <div class="skill-item reveal">
+        <div class="skill-icon">⚛️</div>
+        <span class="skill-name">HTML5</span>
+      </div>
+      <div class="skill-item reveal" style="transition-delay:0.05s;">
+        <div class="skill-icon">🎨</div>
+        <span class="skill-name">CSS3</span>
+      </div>
+      <div class="skill-item reveal" style="transition-delay:0.1s;">
+        <div class="skill-icon">🟨</div>
+        <span class="skill-name">JavaScript</span>
+      </div>
+      <div class="skill-item reveal" style="transition-delay:0.15s;">
+        <div class="skill-icon">📐</div>
+        <span class="skill-name">Flexbox</span>
+      </div>
+      <div class="skill-item reveal" style="transition-delay:0.2s;">
+        <div class="skill-icon">🗂️</div>
+        <span class="skill-name">CSS Grid</span>
+      </div>
+      <div class="skill-item reveal" style="transition-delay:0.25s;">
+        <div class="skill-icon">🔲</div>
+        <span class="skill-name">Responsive UI</span>
+      </div>
+      <div class="skill-item reveal" style="transition-delay:0.3s;">
+        <div class="skill-icon">🌐</div>
+        <span class="skill-name">Git &amp; GitHub</span>
+      </div>
+      <div class="skill-item reveal" style="transition-delay:0.35s;">
+        <div class="skill-icon">🖌️</div>
+        <span class="skill-name">UI Design</span>
+      </div>
+      <div class="skill-item reveal" style="transition-delay:0.4s;">
+        <div class="skill-icon">📱</div>
+        <span class="skill-name">Mobile First</span>
+      </div>
+      <div class="skill-item reveal" style="transition-delay:0.45s;">
+        <div class="skill-icon">✨</div>
+        <span class="skill-name">Animations</span>
+      </div>
+      <div class="skill-item reveal" style="transition-delay:0.5s;">
+        <div class="skill-icon">🧩</div>
+        <span class="skill-name">Component Design</span>
+      </div>
+      <div class="skill-item reveal" style="transition-delay:0.55s;">
+        <div class="skill-icon">🚀</div>
+        <span class="skill-name">Performance</span>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ========================
+       FOOTER
+       ======================== -->
+  <footer id="contact">
+    <div class="footer-main">
+
+      <!-- Brand Column -->
+      <div class="footer-col">
+        <div class="footer-logo">AG.</div>
+        <p class="footer-tagline">
+          Building digital products, brands, and experiences that leave a lasting impression.
+        </p>
+        <div class="footer-socials">
+          <a href="https://github.com" target="_blank" class="footer-social" id="footer-github" aria-label="GitHub">
+            <i class="fa-brands fa-github"></i>
+          </a>
+          <a href="https://linkedin.com" target="_blank" class="footer-social" id="footer-linkedin" aria-label="LinkedIn">
+            <i class="fa-brands fa-linkedin-in"></i>
+          </a>
+          <a href="https://twitter.com" target="_blank" class="footer-social" id="footer-twitter" aria-label="Twitter">
+            <i class="fa-brands fa-x-twitter"></i>
+          </a>
+          <a href="https://instagram.com" target="_blank" class="footer-social" id="footer-instagram" aria-label="Instagram">
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+        </div>
+      </div>
+
+      <!-- Quick Links Column -->
+      <div class="footer-col">
+        <p class="footer-col-title">
+          <i class="fa-solid fa-link"></i> Quick Links
+        </p>
+        <ul class="footer-links-list">
+          <li><a href="#" id="footer-link-home"><i class="fa-solid fa-chevron-right" style="font-size:0.6rem;opacity:0.5;"></i> Home</a></li>
+          <li><a href="#about" id="footer-link-about"><i class="fa-solid fa-chevron-right" style="font-size:0.6rem;opacity:0.5;"></i> About</a></li>
+          <li><a href="#projects" id="footer-link-projects"><i class="fa-solid fa-chevron-right" style="font-size:0.6rem;opacity:0.5;"></i> Projects</a></li>
+          <li><a href="#skills" id="footer-link-skills"><i class="fa-solid fa-chevron-right" style="font-size:0.6rem;opacity:0.5;"></i> Skills</a></li>
+          <li><a href="#contact" id="footer-link-contact"><i class="fa-solid fa-chevron-right" style="font-size:0.6rem;opacity:0.5;"></i> Contact</a></li>
+          <li><a href="../index.html" id="footer-link-dashboard"><i class="fa-solid fa-chevron-right" style="font-size:0.6rem;opacity:0.5;"></i> Project Dashboard</a></li>
+        </ul>
+      </div>
+
+      <!-- Services Column -->
+      <div class="footer-col">
+        <p class="footer-col-title">
+          <i class="fa-solid fa-screwdriver-wrench"></i> Services
+        </p>
+        <ul class="footer-links-list">
+          <li><a href="#" id="service-frontend"><i class="fa-solid fa-chevron-right" style="font-size:0.6rem;opacity:0.5;"></i> Front-End Development</a></li>
+          <li><a href="#" id="service-uiux"><i class="fa-solid fa-chevron-right" style="font-size:0.6rem;opacity:0.5;"></i> UI/UX Design</a></li>
+          <li><a href="#" id="service-responsive"><i class="fa-solid fa-chevron-right" style="font-size:0.6rem;opacity:0.5;"></i> Responsive Websites</a></li>
+          <li><a href="#" id="service-clone"><i class="fa-solid fa-chevron-right" style="font-size:0.6rem;opacity:0.5;"></i> UI Clones &amp; Prototypes</a></li>
+          <li><a href="#" id="service-portal"><i class="fa-solid fa-chevron-right" style="font-size:0.6rem;opacity:0.5;"></i> Fan Sites &amp; Portals</a></li>
+        </ul>
+      </div>
+
+      <!-- Contact + CTA Column -->
+      <div class="footer-col footer-cta-col">
+        <div>
+          <div class="footer-cta-envelope">📬</div>
+          <p class="footer-cta-text">Let's build something great together.</p>
+        </div>
+        <a href="mailto:archisha@example.com" class="footer-cta-btn" id="lets-talk-btn">
+          Let's Talk &nbsp;<i class="fa-solid fa-arrow-right"></i>
+        </a>
+      </div>
+    </div>
+
+    <!-- Bottom Bar -->
+    <div class="footer-bottom">
+      <p class="footer-copy">© 2026 Archisha Gupta. All rights reserved.</p>
+      <div class="footer-bottom-links">
+        <a href="#" id="privacy-link">Privacy Policy</a>
+        <a href="#" id="terms-link">Terms &amp; Conditions</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
