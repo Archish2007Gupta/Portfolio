@@ -67,6 +67,9 @@ document.addEventListener('DOMContentLoaded', () => {
      ============================ */
   const reveals = document.querySelectorAll('.reveal');
 
+  // First add animate-in so they start hidden (only when JS runs)
+  reveals.forEach(el => el.classList.add('animate-in'));
+
   const revealObserver = new IntersectionObserver((entries) => {
     entries.forEach(entry => {
       if (entry.isIntersecting) {
@@ -74,7 +77,7 @@ document.addEventListener('DOMContentLoaded', () => {
         revealObserver.unobserve(entry.target);
       }
     });
-  }, { threshold: 0.1, rootMargin: '0px 0px -60px 0px' });
+  }, { threshold: 0.08, rootMargin: '0px 0px -40px 0px' });
 
   reveals.forEach(el => revealObserver.observe(el));
 

@@ -13,8 +13,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Caveat:wght@400;500;600;700&family=Outfit:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
   <!-- Icons -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
-  <!-- Styles -->
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="style.css?v=3" />
 </head>
 <body>
 
@@ -160,214 +159,99 @@
       </a>
     </div>
 
-    <!-- Project 01: Edify Tutorial -->
-    <div class="project-item reveal" id="project-edify">
-      <div class="project-num">01</div>
+    <!-- Card Grid -->
+    <div class="projects-grid">
 
-      <div class="project-info">
-        <div>
-          <div class="project-icon-wrap" style="background:#e0f7ff;" id="edify-icon">
-            🎓
-          </div>
-          <h2 class="project-name">Edify Tutorial</h2>
-          <p class="project-desc">
-            An educational platform featuring an interactive login system and dedicated dashboards for students, teachers, and parents.
-          </p>
-          <div class="project-tags">
-            <span class="tag">HTML5</span>
-            <span class="tag">CSS3</span>
-            <span class="tag">JavaScript</span>
-            <span class="tag">Dashboard UI</span>
+      <!-- Card 01: Edify Tutorial -->
+      <a href="../Edify Tutorial/index.html" class="project-card reveal" id="project-edify" target="_blank" rel="noopener noreferrer">
+        <div class="card-preview edify">
+          <span class="card-num-badge">01</span>
+          <span class="card-ext-icon"><i class="fa-solid fa-arrow-up-right-from-square"></i></span>
+          <span class="card-preview-emoji">🎓</span>
+        </div>
+        <div class="card-body">
+          <h2 class="card-title">Edify Tutorial</h2>
+          <p class="card-desc">An educational platform with an interactive login system and dedicated dashboards for students, teachers, and parents.</p>
+          <div class="card-tags">
+            <span class="card-tag">HTML5</span>
+            <span class="card-tag">CSS3</span>
+            <span class="card-tag">JavaScript</span>
+            <span class="card-tag">Dashboard UI</span>
           </div>
         </div>
-        <a href="../Edify Tutorial/index.html" class="project-view-btn" id="edify-btn">
-          View Case Study &nbsp;<i class="fa-solid fa-arrow-right"></i>
-        </a>
-        <div class="corner-fold"></div>
-      </div>
+        <div class="card-footer">
+          <span class="card-cta">Explore Dashboard &nbsp;<i class="fa-solid fa-arrow-right"></i></span>
+          <span class="card-status">Live</span>
+        </div>
+      </a>
 
-      <div class="project-roadmap">
-        <p class="roadmap-title num-badge">Project Roadmap</p>
-        <div class="roadmap-steps">
-          <div class="roadmap-step done">
-            <span class="num-badge">01</span>
-            <div class="roadmap-step-icon"><i class="fa-solid fa-magnifying-glass"></i></div>
-            <span class="roadmap-step-label">Research</span>
-          </div>
-          <div class="roadmap-step done">
-            <span class="num-badge">02</span>
-            <div class="roadmap-step-icon"><i class="fa-solid fa-pen-nib"></i></div>
-            <span class="roadmap-step-label">Design</span>
-          </div>
-          <div class="roadmap-step done">
-            <span class="num-badge">03</span>
-            <div class="roadmap-step-icon"><i class="fa-solid fa-code"></i></div>
-            <span class="roadmap-step-label">Development</span>
-          </div>
-          <div class="roadmap-step done">
-            <span class="num-badge">04</span>
-            <div class="roadmap-step-icon"><i class="fa-solid fa-flag"></i></div>
-            <span class="roadmap-step-label">Launch</span>
+      <!-- Card 02: Netflix Clone -->
+      <a href="../Netflix/Netflix.html" class="project-card reveal" id="project-netflix" style="transition-delay:0.08s;" target="_blank" rel="noopener noreferrer">
+        <div class="card-preview netflix">
+          <span class="card-num-badge">02</span>
+          <span class="card-ext-icon"><i class="fa-solid fa-arrow-up-right-from-square"></i></span>
+          <span class="card-preview-emoji">🎬</span>
+        </div>
+        <div class="card-body">
+          <h2 class="card-title">Netflix UI Clone</h2>
+          <p class="card-desc">A pixel-perfect replica of the Netflix streaming platform with FAQ accordion, hero video section, and dark theme styling.</p>
+          <div class="card-tags">
+            <span class="card-tag">CSS Grid</span>
+            <span class="card-tag">Flexbox</span>
+            <span class="card-tag">Interactive FAQ</span>
+            <span class="card-tag">UI Clone</span>
           </div>
         </div>
-      </div>
-    </div>
+        <div class="card-footer">
+          <span class="card-cta">Launch Clone &nbsp;<i class="fa-solid fa-arrow-right"></i></span>
+          <span class="card-status">Live</span>
+        </div>
+      </a>
 
-    <!-- Project 02: Netflix Clone -->
-    <div class="project-item reveal" id="project-netflix" style="transition-delay: 0.1s;">
-      <div class="project-num">02</div>
-
-      <div class="project-info">
-        <div>
-          <div class="project-icon-wrap" style="background:#ffe0e6;" id="netflix-icon">
-            🎬
-          </div>
-          <h2 class="project-name">Netflix UI Clone</h2>
-          <p class="project-desc">
-            A pixel-perfect replica of the Netflix streaming platform's landing page, complete with a FAQ accordion and dark theme styling.
-          </p>
-          <div class="project-tags">
-            <span class="tag">CSS Grid</span>
-            <span class="tag">Flexbox</span>
-            <span class="tag">Interactive FAQ</span>
-            <span class="tag">UI Clone</span>
+      <!-- Card 03: Amazon Clone -->
+      <a href="../Amazon/Amazon.html" class="project-card reveal" id="project-amazon" style="transition-delay:0.16s;" target="_blank" rel="noopener noreferrer">
+        <div class="card-preview amazon">
+          <span class="card-num-badge">03</span>
+          <span class="card-ext-icon"><i class="fa-solid fa-arrow-up-right-from-square"></i></span>
+          <span class="card-preview-emoji">🛒</span>
+        </div>
+        <div class="card-body">
+          <h2 class="card-title">Amazon Homepage Clone</h2>
+          <p class="card-desc">An interactive replica of the Amazon e-commerce homepage with navigation panels, responsive grids, and product categories.</p>
+          <div class="card-tags">
+            <span class="card-tag">E-commerce UI</span>
+            <span class="card-tag">Custom CSS</span>
+            <span class="card-tag">Responsive Nav</span>
           </div>
         </div>
-        <a href="../Netflix/Netflix.html" class="project-view-btn" id="netflix-btn">
-          View Case Study &nbsp;<i class="fa-solid fa-arrow-right"></i>
-        </a>
-        <div class="corner-fold"></div>
-      </div>
+        <div class="card-footer">
+          <span class="card-cta">Launch Clone &nbsp;<i class="fa-solid fa-arrow-right"></i></span>
+          <span class="card-status">Live</span>
+        </div>
+      </a>
 
-      <div class="project-roadmap">
-        <p class="roadmap-title num-badge">Project Roadmap</p>
-        <div class="roadmap-steps">
-          <div class="roadmap-step done">
-            <span class="num-badge">01</span>
-            <div class="roadmap-step-icon"><i class="fa-solid fa-magnifying-glass"></i></div>
-            <span class="roadmap-step-label">Research</span>
-          </div>
-          <div class="roadmap-step done">
-            <span class="num-badge">02</span>
-            <div class="roadmap-step-icon"><i class="fa-solid fa-pen-nib"></i></div>
-            <span class="roadmap-step-label">Design</span>
-          </div>
-          <div class="roadmap-step done">
-            <span class="num-badge">03</span>
-            <div class="roadmap-step-icon"><i class="fa-solid fa-code"></i></div>
-            <span class="roadmap-step-label">Development</span>
-          </div>
-          <div class="roadmap-step done">
-            <span class="num-badge">04</span>
-            <div class="roadmap-step-icon"><i class="fa-solid fa-flag"></i></div>
-            <span class="roadmap-step-label">Launch</span>
+      <!-- Card 04: KOTLC Community Hub -->
+      <a href="../KOTLC/index5.html" class="project-card reveal" id="project-kotlc" style="transition-delay:0.24s;" target="_blank" rel="noopener noreferrer">
+        <div class="card-preview kotlc">
+          <span class="card-num-badge">04</span>
+          <span class="card-ext-icon"><i class="fa-solid fa-arrow-up-right-from-square"></i></span>
+          <span class="card-preview-emoji">🔮</span>
+        </div>
+        <div class="card-body">
+          <h2 class="card-title">KOTLC Community Hub</h2>
+          <p class="card-desc">A feature-rich fan site with book listings, art galleries, character bios, recipes, playlists, and interactive fan resources.</p>
+          <div class="card-tags">
+            <span class="card-tag">Multi-page Portal</span>
+            <span class="card-tag">Media Integration</span>
+            <span class="card-tag">Interactive Gallery</span>
           </div>
         </div>
-      </div>
-    </div>
-
-    <!-- Project 03: Amazon Clone -->
-    <div class="project-item reveal" id="project-amazon" style="transition-delay: 0.2s;">
-      <div class="project-num">03</div>
-
-      <div class="project-info">
-        <div>
-          <div class="project-icon-wrap" style="background:#fff4e0;" id="amazon-icon">
-            🛒
-          </div>
-          <h2 class="project-name">Amazon Homepage Clone</h2>
-          <p class="project-desc">
-            An interactive replica of the Amazon e-commerce homepage featuring navigation panels, responsive grids, and product categories.
-          </p>
-          <div class="project-tags">
-            <span class="tag">E-commerce UI</span>
-            <span class="tag">Custom CSS</span>
-            <span class="tag">Responsive Nav</span>
-          </div>
+        <div class="card-footer">
+          <span class="card-cta">Explore Site &nbsp;<i class="fa-solid fa-arrow-right"></i></span>
+          <span class="card-status">Live</span>
         </div>
-        <a href="../Amazon/Amazon.html" class="project-view-btn" id="amazon-btn">
-          View Case Study &nbsp;<i class="fa-solid fa-arrow-right"></i>
-        </a>
-        <div class="corner-fold"></div>
-      </div>
+      </a>
 
-      <div class="project-roadmap">
-        <p class="roadmap-title num-badge">Project Roadmap</p>
-        <div class="roadmap-steps">
-          <div class="roadmap-step done">
-            <span class="num-badge">01</span>
-            <div class="roadmap-step-icon"><i class="fa-solid fa-magnifying-glass"></i></div>
-            <span class="roadmap-step-label">Research</span>
-          </div>
-          <div class="roadmap-step done">
-            <span class="num-badge">02</span>
-            <div class="roadmap-step-icon"><i class="fa-solid fa-pen-nib"></i></div>
-            <span class="roadmap-step-label">Design</span>
-          </div>
-          <div class="roadmap-step done">
-            <span class="num-badge">03</span>
-            <div class="roadmap-step-icon"><i class="fa-solid fa-code"></i></div>
-            <span class="roadmap-step-label">Development</span>
-          </div>
-          <div class="roadmap-step done">
-            <span class="num-badge">04</span>
-            <div class="roadmap-step-icon"><i class="fa-solid fa-flag"></i></div>
-            <span class="roadmap-step-label">Launch</span>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Project 04: KOTLC Fanpage -->
-    <div class="project-item reveal" id="project-kotlc" style="transition-delay: 0.3s;">
-      <div class="project-num">04</div>
-
-      <div class="project-info">
-        <div>
-          <div class="project-icon-wrap" style="background:#e8e0ff;" id="kotlc-icon">
-            🔮
-          </div>
-          <h2 class="project-name">KOTLC Community Hub</h2>
-          <p class="project-desc">
-            A feature-rich community fan site showcasing book listings, art galleries, character bios, recipes, playlists, and fan resources.
-          </p>
-          <div class="project-tags">
-            <span class="tag">Multi-page Portal</span>
-            <span class="tag">Media Integration</span>
-            <span class="tag">Interactive Gallery</span>
-          </div>
-        </div>
-        <a href="../KOTLC/index5.html" class="project-view-btn" id="kotlc-btn">
-          View Case Study &nbsp;<i class="fa-solid fa-arrow-right"></i>
-        </a>
-        <div class="corner-fold"></div>
-      </div>
-
-      <div class="project-roadmap">
-        <p class="roadmap-title num-badge">Project Roadmap</p>
-        <div class="roadmap-steps">
-          <div class="roadmap-step done">
-            <span class="num-badge">01</span>
-            <div class="roadmap-step-icon"><i class="fa-solid fa-magnifying-glass"></i></div>
-            <span class="roadmap-step-label">Research</span>
-          </div>
-          <div class="roadmap-step done">
-            <span class="num-badge">02</span>
-            <div class="roadmap-step-icon"><i class="fa-solid fa-pen-nib"></i></div>
-            <span class="roadmap-step-label">Design</span>
-          </div>
-          <div class="roadmap-step done">
-            <span class="num-badge">03</span>
-            <div class="roadmap-step-icon"><i class="fa-solid fa-code"></i></div>
-            <span class="roadmap-step-label">Development</span>
-          </div>
-          <div class="roadmap-step done">
-            <span class="num-badge">04</span>
-            <div class="roadmap-step-icon"><i class="fa-solid fa-flag"></i></div>
-            <span class="roadmap-step-label">Launch</span>
-          </div>
-        </div>
-      </div>
     </div>
 
   </section>
@@ -513,6 +397,6 @@
     </div>
   </footer>
 
-  <script src="script.js"></script>
+  <script src="script.js?v=2"></script>
 </body>
 </html>
